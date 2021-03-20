@@ -1,0 +1,17 @@
+create table Word
+(
+Id integer not null primary key,
+Token varchar(50) not null,
+Class varchar(50),
+Linkstring varchar(150),
+Composed bit,
+Number integer,
+Frequency decimal(12,6)
+)
+
+create table Rootlink
+(
+Id integer not null primary key,
+Word integer foreign key references Word (Id),
+Root integer foreign key references Word (Id)
+)

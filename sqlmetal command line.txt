@@ -1,0 +1,1 @@
+D:\Program (x86)\Microsoft Visual Studio 14.0>SqlMetal /server:KOMPLETT2015 /database:"wordfreq" /code:D:\wordfreq.cs
